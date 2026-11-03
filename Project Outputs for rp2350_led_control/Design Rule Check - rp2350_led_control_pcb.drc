@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\Tuto_HardwareDesign\rp2350_led_control\rp2350_led_control_pcb.PcbDoc
 Date     : 03-11-26
-Time     : 11:35:10
+Time     : 15:51:45
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) ((InDifferentialPairClass('All Differential Pairs'))),((InDifferentialPairClass('All Differential Pairs')))
 Rule Violations :0
