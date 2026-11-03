@@ -83,7 +83,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YPWGPRIF
 
 [Document3]
-DocumentPath=..\ulrich_footprint.PcbLib
+DocumentPath=..\AltiumLib\ulrich_footprint.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -100,7 +100,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OIISOQYF
 
 [Document4]
-DocumentPath=..\ulrich_schematic.SchLib
+DocumentPath=..\AltiumLib\ulrich_schematic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
