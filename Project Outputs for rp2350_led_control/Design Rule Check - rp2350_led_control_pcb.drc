@@ -1,7 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : E:\Tuto_HardwareDesign\rp2350_led_control\rp2350_led_control_pcb.PcbDoc
-Date     : 03-11-26
-Time     : 15:51:45
+Date     : 04-11-26
+Time     : 10:49:26
+
+WARNING: Unplated multi-layer pad(s) detected
+   Pad Free-MH(17.812mm,3.987mm) on Multi-Layer on Net GND
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) ((InDifferentialPairClass('All Differential Pairs'))),((InDifferentialPairClass('All Differential Pairs')))
 Rule Violations :0
@@ -27,7 +30,7 @@ Rule Violations :0
 Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
    Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(132.5mm,4.487mm) on Multi-Layer Actual Hole Size = 3.2mm
    Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(138.972mm,102.935mm) on Multi-Layer Actual Hole Size = 3.2mm
-   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(32.372mm,4.197mm) on Multi-Layer Actual Hole Size = 3.2mm
+   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(17.812mm,3.987mm) on Multi-Layer Actual Hole Size = 3.2mm
    Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(46.338mm,125.848mm) on Multi-Layer Actual Hole Size = 3.2mm
 Rule Violations :4
 
