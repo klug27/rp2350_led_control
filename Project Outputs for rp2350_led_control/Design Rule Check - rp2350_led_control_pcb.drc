@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\Tuto_HardwareDesign\rp2350_led_control\rp2350_led_control_pcb.PcbDoc
-Date     : 10-11-26
-Time     : 09:50:42
+Date     : 13-11-26
+Time     : 11:27:34
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) ((InDifferentialPairClass('All Differential Pairs'))),((InDifferentialPairClass('All Differential Pairs')))
 Rule Violations :0
@@ -13,7 +13,9 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Track (76.712mm,102.102mm)(76.718mm,102.096mm) on L3(PWR) And Pad TP5-1(82.068mm,110.077mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net +3V3 Between Pad TP5-1(82.068mm,110.077mm) on Multi-Layer And Track (87.759mm,79.098mm)(87.759mm,106.462mm) on L3(PWR) 
+Rule Violations :2
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -25,8 +27,8 @@ Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
-   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(132.5mm,4.487mm) on Multi-Layer Actual Hole Size = 3.2mm
-   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(138.972mm,102.935mm) on Multi-Layer Actual Hole Size = 3.2mm
+   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(138.906mm,5.502mm) on Multi-Layer Actual Hole Size = 3.2mm
+   Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(139.035mm,122.188mm) on Multi-Layer Actual Hole Size = 3.2mm
    Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(17.812mm,3.987mm) on Multi-Layer Actual Hole Size = 3.2mm
    Violation between Hole Size Constraint: (3.2mm > 2.54mm) Pad Free-MH(46.338mm,125.848mm) on Multi-Layer Actual Hole Size = 3.2mm
 Rule Violations :4
@@ -76,7 +78,9 @@ Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :29
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
+   Violation between Net Antennae: Track (76.712mm,102.102mm)(76.718mm,102.096mm) on L3(PWR) 
+   Violation between Net Antennae: Track (76.712mm,102.102mm)(76.718mm,102.096mm) on L3(PWR) 
+Rule Violations :2
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (-1.862mm,25.776mm)(-1.862mm,28.896mm) on Top Overlay 
@@ -114,6 +118,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 62
+Violations Detected : 66
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:04
